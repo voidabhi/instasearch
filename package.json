@@ -1,0 +1,19 @@
+{
+  "name": "instasearch",
+  "version": "1.0.0",
+  "description": "Tag based image search on instagram",
+  "main": "is.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/voidabhi/instasearch.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/voidabhi/instasearch/issues"
+  },
+  "homepage": "https://github.com/voidabhi/instasearch#readme"
+}
