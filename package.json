@@ -4,17 +4,27 @@
   "description": "Tag based image search on instagram",
   "main": "is.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "./node_modules/.bin/babel is.js --out-dir dist"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/voidabhi/instasearch.git",
-    "serve": "http-serve dist/"
+    "url": "git+https://github.com/voidabhi/instasearch.git"
   },
-  "author": "",
+  "author": "Abhijeet Mohan <void.aby@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/voidabhi/instasearch/issues"
   },
-  "homepage": "https://github.com/voidabhi/instasearch#readme"
+  "babel": {
+    "presets": ["es2015"]
+  },
+  "homepage": "https://github.com/voidabhi/instasearch#readme",
+  "dependencies": {
+    "jquery": "^3.0.0"
+  },
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-cli": "^6.9.0",
+    "babel-preset-es2015": "^6.9.0"
+  }
 }
