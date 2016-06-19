@@ -38,9 +38,10 @@ class IS {
                     })
             });
         }
-        /**
-         * Removes hashtag from the string
-         */
+        
+    /**
+     * Removes hashtag from the string
+     */
     _clean(str) {
         // remove spaces from strings
         str = str.replace(/ /g, '');
