@@ -4,7 +4,7 @@
   "description": "Tag based image search on instagram",
   "main": "is.js",
   "scripts": {
-    "build": "./node_modules/.bin/babel is.js --out-dir dist"
+    "build": "./node_modules/.bin/babel is.js --out-dir dist/is.min.js"
   },
   "repository": {
     "type": "git",
