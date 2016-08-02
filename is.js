@@ -9,10 +9,10 @@ class IS {
      * @param {Object} opts
      */
     constructor(opts) {
-        this.opts = opts || {};
-        this.opts.url = '';
-        this.opts.client_id = '';
-        this.otps.count = this.opts.count || 20;
+        this.opts = opts || {}
+        this.opts.url = ''
+        this.opts.client_id = ''
+        this.otps.count = this.opts.count || 20
     }
 
     /**
@@ -44,14 +44,14 @@ class IS {
      */
     _clean(str) {
         // remove spaces from strings
-        str = str.replace(/ /g, '');
+        str = str.replace(/ /g, '')
 
         // remove hashtag
         if (str.charAt(0) == "#" || str.charAt(0) == '&#35;') {
-            str = str.substr(1);
+            str = str.substr(1)
         }
 
-        return str;
+        return str
     }
 
 }
