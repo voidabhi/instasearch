@@ -9,3 +9,9 @@ npm run build
 
 ```
 
+### Import
+
+```
+  <script type="text/javascript" src="is.min.js"></script>
+```
+
