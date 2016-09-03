@@ -11,7 +11,7 @@ npm run build
 
 ### Import
 
-```
+```javascript
   <script type="text/javascript" src="is.min.js"></script>
 ```
 
