@@ -20,7 +20,7 @@ class IS {
      */
     getTags(search) {
             return new Promise((resolve, reject) => {
-                search = _clean(search)
+                search = this._clean(search)
                 let url = 'https://api.instagram.com/v1/tags/' + search + '/media/recent'
                 $.ajax({
                         type: 'GET',
@@ -31,10 +31,10 @@ class IS {
                         dataType: 'jsonp'
                     })
                     .done((res) => {
-                        console.log(res)
+                        resolve(res)
                     })
                     .fail((err) => {
-                        console.log(err);
+                        reject(err)
                     })
             });
         }
